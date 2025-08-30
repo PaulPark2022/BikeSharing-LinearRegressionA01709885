@@ -1,2 +1,10 @@
-# BikeSharingPredictionA01709885
-Este repositorio contiene una implementación manual de un algoritmo de regresión lineal, aplicado a un dataset de registros diarios del número de bicicletas alquiladas en el sistema Capital Bikeshare de Washington D.C. durante 2011 y 2012 (incluyendo información de clima y temporada).
+# Bike Sharing Prediction - Linear Regression from Scratch
+
+Este proyecto implementa **Regresión Lineal Multivariable** desde cero, usando únicamente
+`numpy` y `pandas` para el manejo de datos y cálculos matriciales.
+
+## 📌 Descripción
+Se utiliza el dataset **Bike Sharing (UCI/Kaggle)** para predecir la cantidad de bicicletas
+alquiladas (`cnt`) a partir de variables como temperatura, humedad, estación del año, etc.
+
+El modelo se entrenó con **gradiente descendente** implementado manualmente, sin usar frameworks de aprendizaje automático.
